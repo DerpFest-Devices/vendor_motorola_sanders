@@ -1472,6 +1472,7 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     libtinycompress_vendor \
     imscmlibrary \
+    libloc_api_v02 \
     qcrilhook \
     ims \
     imssettings \
