@@ -15,6 +15,25 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libbtnv",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libbtnv.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libbtnv.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
 dex_import {
     name: "WfdCommon",
     owner: "motorola",
