@@ -115,3 +115,15 @@ cc_prebuilt_library_shared {
         prefer: true,
         soc_specific: true,
 }
+
+dex_import {
+    name: "QPerformance",
+    owner: "motorola",
+    jars: ["proprietary/framework/QPerformance.jar"],
+}
+
+dex_import {
+    name: "UxPerformance",
+    owner: "motorola",
+    jars: ["proprietary/framework/UxPerformance.jar"],
+}
