@@ -175,6 +175,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Brazil.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
+    vendor/motorola/sanders/proprietary/vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gnss@2.0-impl-qti.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@2.0-impl-qti.so \
     vendor/motorola/sanders/proprietary/vendor/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
     vendor/motorola/sanders/proprietary/vendor/lib/sensors.rp.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.rp.so \
     vendor/motorola/sanders/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
