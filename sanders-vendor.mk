@@ -1378,7 +1378,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/product/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.1.so \
     vendor/motorola/sanders/proprietary/product/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.display.color@1.2.so \
     vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.0.so \
-    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.1.so:$(TARGET_COPY_SYSTEM)/lib/vendor.display.config@1.1.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.1.so \
     vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.2.so \
     vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.3.so \
     vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.4.so \
